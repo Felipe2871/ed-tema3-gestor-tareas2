@@ -31,5 +31,12 @@ Scanner sc = new Scanner(System.in);
         
         
       
+        double resultado = 0;
+        char operacion = 'a';
+        mostrarResultado(resultado, operacion);
+    }
+    
+    public static void mostrarResultado(double resultado, char operacion){
+        System.out.printf("Resultado de la %c es %d\n",operacion,resultado);
     }
 }
