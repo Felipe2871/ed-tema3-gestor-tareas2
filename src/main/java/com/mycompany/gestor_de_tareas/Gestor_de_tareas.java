@@ -3,14 +3,34 @@
  */
 
 package com.mycompany.gestor_de_tareas;
-
+import java.util.Scanner;
 /**
  *
  * @author Usuario
  */
 public class Gestor_de_tareas {
 
+Scanner sc = new Scanner(System.in);    
+    
+    
     public static void main(String[] args) {
+        //System.out.println(""); saludar
+        String nombre = sc.netxLine();
+        //System.out.println(""); bienvenido 
+        
+    
+        System.out.println("introduce el prinmer numero");
+        int numero = sc.nextInt();
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
         double resultado = 0;
         char operacion = 'a';
         mostrarResultado(resultado, operacion);
