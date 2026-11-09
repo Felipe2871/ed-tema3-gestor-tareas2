@@ -10,23 +10,12 @@ import java.util.Scanner;
  */
 public class Gestor_de_tareas {
 
-<<<<<<< HEAD
-    
     
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);  
         //System.out.println(""); saludar
         String apellido = sc.nextLine();
-=======
-
-    
-    
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);    
-        //System.out.println(""); saludar
-        String nombre = sc.nextLine();
->>>>>>> origin/main
         //System.out.println(""); bienvenido 
         
     
