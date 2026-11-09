@@ -16,8 +16,8 @@ public class Gestor_de_tareas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    
         //System.out.println(""); saludar
-        String nombre = sc.nextLine();
-        //System.out.println(""); bienvenido 
+        String nombreCompleto = sc.nextLine();
+        //System.out.println(""); bienvenido
         
     
         System.out.println("introduce el prinmer numero");
